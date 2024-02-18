@@ -1,0 +1,88 @@
+.home{
+    background-color: rgb(176, 175, 230);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.home .container{
+    border: 1px solid white;
+    width: 80%;
+    height: 90%;
+    display: flex;
+}
+
+.home .sidebar{
+    flex: 1;
+    width: 30%;
+    border-right: 20px solid rgb(65, 44, 112);
+    background-color:rgb(42, 20, 94) ;
+}
+.home .chat{
+    flex: 2;
+}
+
+.searchForm{
+    padding: 10px;
+}
+.searchForm input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+/* Sidebar */
+.userchat {
+    display: flex;
+    flex-direction:row;
+    gap:5px ;
+    border: 1px solid lightslategray;
+    background-color: white;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.userchat:hover {
+    background-color: lightgray;
+}
+
+
+.userchat img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.chatInfo .chatIcon{
+    height: 50px;
+    background-color: rgb(3, 3, 70);
+}
+.Chatmes{
+    background: lightblue;
+    padding: 10px;
+    height: 420px;
+}
+.inputChat{
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.inputChat input{
+    background-color: transparent;
+    border: none;
+    color: lightgray;
+    outline: none;
+    width: 80%;
+}
+
+.inputChat button{
+    padding: 5px;
+    margin: 5px;
+}
+
